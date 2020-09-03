@@ -1,0 +1,33 @@
+.button {
+    border: none;
+    height: calc(100vh / 6);
+    overflow: hidden;
+    width: 25vw;
+    font-size: 10vh;
+    padding: 0%;
+    transition: 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #ffffff;
+}
+
+.number {
+    background-color: rgb(104, 104, 104);
+}
+
+.operator {
+    background-color: rgb(250, 189, 77);
+}
+
+.other {
+    background-color: lightgrey;
+}
+
+.large {
+    width: 50vw;
+}
